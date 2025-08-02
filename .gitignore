@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Environment variables
+.env
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# Virtual environments
+venv/
+env/
