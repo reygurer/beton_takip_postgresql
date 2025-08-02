@@ -20,3 +20,6 @@ __pycache__/
 # Virtual environments
 venv/
 env/
+
+# Config files
+db_config.ini
