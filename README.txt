@@ -41,10 +41,14 @@ Make sure the db.py file (or equivalent setup script) exists and includes your s
 
 Project Structure
 
-├── beton_takip_postgresql.py   # Main GUI application with PostgreSQL integration
-├── db.py                       # Database connection and table creation
-├── README.md                   # Project documentation
-└── .gitignore
+beton_takip_postgresql/
+├── beton_takip_postgresql.py     # Main application script with PostgreSQL support
+├── db_config.py                  # Database connection using environment variables
+├── .env                          # Contains DB credentials (excluded via .gitignore)
+├── .gitignore                    # Git ignore rules to exclude sensitive and unwanted files
+├── README.md                     # Project overview and documentation
+├── excel_kayitlari/              # Folder where Excel reports are saved
+
 
 Notes
 
